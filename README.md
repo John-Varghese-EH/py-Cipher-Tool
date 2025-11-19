@@ -1,6 +1,6 @@
 # Cipher Tool
 
-A compact, modular Python project for the 'Python Essentials' course, which allows encrypting and decrypting texts and files using classical ciphers through a simple and clean Command Line Interface (CLI).
+A compact, modular Python project, which allows encrypting and decrypting texts and files using classical ciphers through a simple and clean Command Line Interface (CLI).
 
 ## Features
 
