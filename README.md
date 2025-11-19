@@ -2,6 +2,10 @@
 
 A compact, modular Python project, which allows encrypting and decrypting texts and files using classical ciphers through a simple and clean Command Line Interface (CLI).
 
+<p align="center">
+  <img src="/screenshort/cipher-tool-1.png" alt="Screenshort preview of Cipher tool" width="500" style="max-width: 100%; height: auto;">
+</p>
+
 ## Features
 
 - The supported ciphers are as follows:
