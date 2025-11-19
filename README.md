@@ -42,8 +42,6 @@ Implement the logic in cipher_tool/ciphers.py.
 
 Disclaimer
 This tool is solely meant for educational purposes. The ciphers available (Caesar, Vigenère, simple XOR) are in no way safe for securing sensitive data in real-world use.
+---
 
-Author
-Name: John Varghese
-GitHub: John-Varghese-EH
-Instagram: Cyber__Trinity
+<a href="https://github.com/John-Varghese-EH/py-Cipher-Tool">Cipher Tool</a> © 2025 by <a href="https://www.linkedin.com/in/john--varghese/">John Varghese (@Cyber_Trinity) J0X</a>
