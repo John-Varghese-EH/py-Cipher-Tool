@@ -1,16 +1,16 @@
 # Cipher Tool
 
-A compact, modular Python project for the "Python Essentials" course. This tool allows users to encrypt and decrypt text and files using classical ciphers via a clean Command Line Interface (CLI).
+A small, modular Python project for the course "Python Essentials". This allows enciphering and deciphering the text and files using classical ciphers through a clean Command Line Interface (CLI).
 
 ## Features
 
 - **Ciphers Supported**:
-  - **Caesar Cipher**: A simple substitution cipher that shifts characters by a specified amount.
+  - **Caesar Cipher**: A substitution cipher that simply shifts characters by a certain amount.
   - **Vigenère Cipher**: A polyalphabetic substitution cipher using a keyword.
-  - **XOR Cipher**: A bitwise operation cipher suitable for both text and binary files.
+  - **XOR Cipher**: A bitwise operation cipher that can be applied to both text and binary files.
 
 - **Modes**:
-  - **Text Mode**: Encrypt/Decrypt text directly from the command line.
+  - **Text Mode**: Encrypt/Decrypt inside command line.
   - **File Mode**: Encrypt/Decrypt text files (Caesar/Vigenère) or arbitrary binary files (XOR).
 
 - **Educational Focus**:
@@ -24,14 +24,14 @@ A compact, modular Python project for the "Python Essentials" course. This tool 
    ```bash
    git clone https://github.com/John-Varghese-EH/py-Cipher-Tool.git
    ```
-2. Navigate to the project directory:
+2. Change directory to py-Cipher-Tool:
    ```bash
    cd py-Cipher-Tool
    ```
 
 ## Usage
 
-The easiest way to run the tool is using the `run.py` script:
+The easiest way of running the tool is through `run.py` script.
 
 ```bash
 python run.py -h
@@ -47,14 +47,14 @@ python run.py text encrypt caesar --key 3 --input "Hello"
 *Output: Khoor*
 
 **2. Vigenère Cipher (Text Mode)**
-Decrypt "RIJVS" with key "KEY":
+Decrypt "RIJVS" using key "KEY":
 ```bash
 python run.py text decrypt vigenere --key "KEY" --input "RIJVS"
 ```
 *Output: HELLO*
 
 **3. XOR Cipher (File Mode)**
-Encrypt a file `secret.txt` to `encrypted.bin`:
+Encrypt file `secret.txt` to `encrypted.bin`:
 ```bash
 python run.py file encrypt xor --key "mysecretkey" --input secret.txt --output encrypted.bin
 ```
@@ -62,13 +62,13 @@ python run.py file encrypt xor --key "mysecretkey" --input secret.txt --output e
 ## Extending the Project
 
 To add a new cipher:
-1. Implement the logic in `cipher_tool/ciphers.py`.
-2. Add validation in `cipher_tool/utils.py` if needed.
-3. Update `cipher_tool/main.py` to include the new cipher in `argparse` choices and dispatch logic.
+1. Implement logic into `cipher_tool/ciphers.py`.
+2. Enhance validation into `cipher_tool/utils.py`, if necessary.
+3. Integrate the cipher into `argparse` choices and dispatch logic in `cipher_tool/main.py`.
 
 ## Disclaimer
 
-This tool is for **educational purposes only**. The implemented ciphers (Caesar, Vigenère, simple XOR) are **not secure** for protecting sensitive data in real-world scenarios.
+The tool is for educational purposes only. The ciphers developed (Caesar, Vigenère, and simple XOR) aren't secure for sensitive data protection in real-life applications.
 
 ## Author
 
