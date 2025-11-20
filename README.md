@@ -8,7 +8,7 @@ Compact, modular Python project, that encrypts and decrypts text and files using
 
 ## Features
 
-- Supported ciphers are as follows:
+- Ciphers supported are:
   - **Caesar Cipher:** A basic substitution cipher that shifts the characters by some predefined amount.
   - **Vigenère Cipher:** A polyalphabetic substitution cipher, whereby text is encrypted based on a keyword.
   - **XOR Cipher:** A classical cipher based on bitwise operations for encrypting arbitrary text and binary files.
@@ -24,7 +24,7 @@ Compact, modular Python project, that encrypts and decrypts text and files using
   - Separation of Concerns (CLI, Logic, Utilities).
 ## Installation
 
-1. Cloning the repository:
+1. To Clone the repository:
 ```bash
 git clone https://github.com/John-Varghese-EH/py-Cipher-Tool.git
 ```
@@ -85,7 +85,7 @@ python run.py file encrypt xor --key SecretKey --input image.png --output encryp
 
 ## Testing
 
-Run the test suite to verify that all ciphers work correctly.
+Run the test suite to verify all cipher implementations work as expected.
 ```bash
 python tests.py
 ```
@@ -101,7 +101,7 @@ To add more ciphers to the tool:
 
 ## Disclaimer
 
-This tool is solely meant for **educational purposes** only. The ciphers provided for (Caesar, Vigenère, simple XOR) are **NOT secure** for protecting sensitive data when used in real-world scenarios.
+This tool is for education only. The ciphers offered for (Caesar, Vigenère, simple XOR) are NOT secure for protecting sensitive data if applied in the real world.
 ---
 
 <a href="https://github.com/John-Varghese-EH/py-Cipher-Tool">Cipher Tool</a> © 2025 by <a href="https://www.linkedin.com/in/john--varghese/">John Varghese (@Cyber_Trinity) J0X</a>
