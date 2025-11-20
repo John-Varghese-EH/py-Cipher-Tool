@@ -3,7 +3,7 @@
 Compact, modular Python project, that encrypts and decrypts text and files using classical ciphers via a clean command-line user interface (CLI).
 
 <p align="center">
-  <img src="/screenshort/cipher-tool-1.png" alt="Screenshort Preview of Cipher Tool" width="500" style="max-width: 100%; height: auto;">
+  <img src="https://raw.githubusercontent.com/John-Varghese-EH/py-Cipher-Tool/main/screenshort/cipher-tool-1.png" alt="Screenshort Preview of Cipher Tool" width="500" style="max-width: 100%; height: auto;">
 </p>
 
 ## Features
@@ -22,6 +22,9 @@ Compact, modular Python project, that encrypts and decrypts text and files using
   - Clean and modular code structure.
   - Without external dependencies (The Standard Library was used only).
   - Separation of Concerns (CLI, Logic, Utilities).
+
+<a href="https://github.com/John-Varghese-EH/py-Cipher-Tool/blob/main/ProjectReport.md">PROJECT REPORT</a>
+
 ## Installation
 
 1. To Clone the repository:
