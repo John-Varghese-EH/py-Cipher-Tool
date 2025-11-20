@@ -3,8 +3,7 @@
 **Project Name:** py-Cipher-Tool  
 **Author:** John Varghese (@Cyber_Trinity) J0X  
 **Repository:** [py-Cipher-Tool](https://github.com/John-Varghese-EH/py-Cipher-Tool)  
-**Date:** November 2025  
-**Purpose:** Educational Python Project for Classical Cryptography
+**Purpose:** Python Project for Classical Cryptography
 
 ---
 
@@ -234,13 +233,18 @@ graph TD
 The application features a colorful ASCII art banner with ANSI color support:
 
 ```python
-BANNER = f"""{Colors.CYAN}
  $$$$$$\  $$\           $$\                                 $$$$$$$$\                  $$\ 
 $$  __$$\ \__|          $$ |                                \__$$  __|                 $$ |
 $$ /  \__|$$\  $$$$$$\  $$$$$$$\   $$$$$$\   $$$$$$\           $$ | $$$$$$\   $$$$$$\  $$ |
-...
-{Colors.YELLOW}      >> Classical Encryption & Decryption Utility <<{Colors.RESET}
-"""
+$$ |      $$ |$$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\          $$ |$$  __$$\ $$  __$$\ $$ |
+$$ |      $$ |$$ /  $$ |$$ |  $$ |$$$$$$$$ |$$ |  \__|         $$ |$$ /  $$ |$$ /  $$ |$$ |
+$$ |  $$\ $$ |$$ |  $$ |$$ |  $$ |$$   ____|$$ |               $$ |$$ |  $$ |$$ |  $$ |$$ |
+\$$$$$$  |$$ |$$$$$$$  |$$ |  $$ |\$$$$$$$\ $$ |               $$ |\$$$$$$  |\$$$$$$  |$$ |
+ \______/ \__|$$  ____/ \__|  \__| \_______|\__|               \__| \______/  \______/ \__|
+              $$ |                                                                         
+              $$ |                                                  By: John Varghese (J0X)
+              \__|                                                                         
+                    >> Classical Encryption & Decryption Utility <<
 ```
 
 **Screenshot Placeholder:**
